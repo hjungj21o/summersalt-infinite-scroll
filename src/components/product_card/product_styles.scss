@@ -1,0 +1,35 @@
+.product-container {
+    width: 100%;
+
+    .product-img {
+        width: inherit;
+        cursor: pointer;
+    }
+
+    .product-title {
+        font-size: 20px;
+        // font-family: Circular-Bold, sans-serif;
+        text-align: left;
+        font-weight: 700;
+        padding-bottom: 1em;
+    }
+
+    &:hover {
+        cursor:pointer;
+        text-decoration: underline;
+        filter: brightness(105%);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .product-title {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .product-title {
+            font-size: 12px !important;
+    }
+}
+
