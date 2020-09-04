@@ -5,7 +5,9 @@ import Scroll from './components/scroll/scroll_component'
 
 function App() {
   return (
+    <div className="App">
       <Scroll/>
+    </div>
   );
 }
 
